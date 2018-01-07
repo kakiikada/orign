@@ -1,0 +1,68 @@
+
+.title .btn-line{
+  width:100%;
+  height:32px;
+}
+
+.title .btn-set{
+  float: right;
+  margin-top: 3px;
+}
+
+.title input{
+  text-align:center;
+  letter-spacing: 0.3em;
+  float:left;
+  width:120px;
+  height:25px;
+  margin:0 5px;
+  border:groove 2px rgba(255,255,255,0.3);
+  border-radius:5px;
+}
+
+.title input:hover{
+  opacity:0.8;
+  transition:0.3s;
+}
+
+main{
+  height:90%;
+}
+
+.square{
+  position:relative;
+  box-sizing: border-box;
+  float:left;
+  height:20vw;
+  max-height:234px;
+  width:20%;
+  max-width:234px;
+  border:solid 1px white;
+  overflow:hidden;
+}
+
+.comment{
+  text-align: center;
+  height:100%;
+  width:100%;
+  opacity:0;
+}
+
+.comment p{
+  position:absolute;
+  height:50%;
+  width:100%;
+  bottom:-50px;
+  margin-left:-50px;
+  background-color:rgba(255, 255, 255, 0.5);
+  border-right:solid 50px rgba(255, 255, 255, 0);
+  border-left:solid 50px rgba(255, 255, 255, 0);
+  border-bottom:solid 50px rgba(255, 255, 255, 0);
+  transform:rotate(315deg);
+  transform-origin :top center;
+}
+
+.comment:hover{
+  opacity:1;
+  transition: 0.5s;
+}

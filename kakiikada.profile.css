@@ -1,0 +1,30 @@
+main{
+  position: relative;
+  height:600px;
+}
+
+.illust{
+  float:left;
+  width:300px;
+  height:300px;
+  background-color:orange;
+  margin:10px;
+}
+
+.profile{
+  position:absolute;
+  width:auto;
+  padding:15px;
+  margin:130px 15px 0 330px;
+  border:dashed 5px white;
+  border-radius:19px;;
+
+}
+
+.profile h3{
+  margin-bottom:5px;
+}
+
+.profile p{
+  display: inline-block;
+}
